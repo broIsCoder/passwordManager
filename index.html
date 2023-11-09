@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Manager</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="https://www.gerflor.com.au/media/13-australia-website/quicksales-australia/faviconico.jpg" type="image/x-icon">
+
+</head>
+<body>
+    <div id="data">
+        <h1>Password Manager</h1>
+        <div class="copyStatus"></div>
+        <table id="table">
+            <!-- will be filled by js  -->
+        </table>
+        <br>
+        <div>Add a Password</div>
+        <br>
+        <form id="form" autocomplete="on">
+            <label for="website">Website:</label>
+            <input type="text" id="website" name="website" required placeholder="enter here">
+            <br>
+            <br>
+            <label for="userName">Username:</label>
+            <input type="text" id="userName" name="userName" required placeholder="enter here">
+            <br>
+            <br>
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required placeholder="enter here">
+            <br>
+            <br>
+
+           <input type="submit" id="submitBtn">
+        </form>
+        <div id="dataStatus"></div>
+    </div>
+    <script src="script.js"> </script>
+</body>
+</html> 

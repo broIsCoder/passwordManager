@@ -1,0 +1,88 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  #data {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #c7c7c7;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    text-align: center;
+  }
+  
+  h1 {
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  table {
+   
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    font-size: 16px;
+  }
+  
+  table th {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px;
+    text-align: left;
+  }
+  
+  table td {
+    background-color: #f9f9f9;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  form label {
+    display: block;
+    font-weight: bold;
+    margin-top: 10px;
+    font-size: 18px;
+  }
+  
+  form input[type="text"],
+  form input[type="password"] {
+    width:40%; /* Adjust the width as needed */
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  
+  #submitBtn {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  #submitBtn:hover {
+    background-color: #0056b3;
+  }
+  
+  .copyStatus {
+    font-weight: bold;
+    color: #007BFF;
+    margin-top: 10px;
+    font-size: 18px;
+  }
+  
+  .deleteBtn{
+    background-color: #007BFF;
+    padding: 10px;
+    color: white;
+    border-radius: 9px;
+  }
